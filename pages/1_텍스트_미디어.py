@@ -35,8 +35,6 @@ st.latex(r'\int_a^b f(x)dx')
 st.divider()  # 👉 구분선
 
 
----
-
 ## 📌 텍스트 · 미디어 (`텍스트_미디어.py`)
 
 
@@ -66,3 +64,4 @@ st.error('This is an error message', icon="⛔")
 
 '### :orange[성공: st.success()]'
 st.success('This is a success message', icon="✅")
+
