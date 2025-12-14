@@ -1,5 +1,5 @@
 import time
-
+import streamlit as st
 @st.cache_data
 def long_running_function(param1):
     time.sleep(5)
@@ -33,3 +33,4 @@ color2 = st.color_picker("Color2", "#FF0000")
 st.divider()  # 구분선
 st.scatter_chart(st.session_state.df, x="x", y="y", color=color2)
 st.write('📌 :green[session_state를 사용하면, 저장된 state를 사용하므로 값이 고정됨]')
+
